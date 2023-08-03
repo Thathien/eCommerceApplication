@@ -1,0 +1,40 @@
+2023-08-03 19:07:14,655 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication using Java 17.0.7 on ThatHien with PID 15140 (C:\Users\OS\git\eCommerceApplication\target\classes started by OS in C:\Users\OS\git\eCommerceApplication)
+2023-08-03 19:07:14,664 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-08-03 19:07:14,664 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-03 19:07:17,324 DEBUG c.e.d.c.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2023-08-03 19:07:17,680 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 3.377 seconds (JVM running for 3.969)
+2023-08-03 19:11:03,562 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication using Java 17.0.7 on ThatHien with PID 9068 (C:\Users\OS\git\eCommerceApplication\target\classes started by OS in C:\Users\OS\git\eCommerceApplication)
+2023-08-03 19:11:03,569 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-08-03 19:11:03,570 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-03 19:11:05,781 DEBUG c.e.d.c.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2023-08-03 19:11:06,399 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-08-03 19:11:15,948 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication using Java 17.0.7 on ThatHien with PID 14936 (C:\Users\OS\git\eCommerceApplication\target\classes started by OS in C:\Users\OS\git\eCommerceApplication)
+2023-08-03 19:11:15,954 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-08-03 19:11:15,955 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-03 19:11:18,330 DEBUG c.e.d.c.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2023-08-03 19:11:18,755 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 3.034 seconds (JVM running for 3.507)
+2023-08-03 19:11:45,365 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests using Java 17.0.7 on ThatHien with PID 332 (started by OS in C:\Users\OS\git\eCommerceApplication)
+2023-08-03 19:11:45,370 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-08-03 19:11:45,371 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-03 19:11:48,394 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 3.167 seconds (JVM running for 3.923)
+2023-08-03 19:11:48,647 INFO c.e.d.c.UserController [main] [UserController][createUser]:User name test is successfully created
+2023-08-03 19:11:48,650 ERROR c.e.d.c.UserController [main] [UserController][createUser]: Confirmed password does not match password.
+2023-08-03 19:11:48,651 ERROR c.e.d.c.UserController [main] [UserController][createUser]: password length must be greater than 7.
+2023-08-03 19:11:48,688 ERROR c.e.d.c.OrderController [main] [OrderController][submit]: User "test" cannot be found
+2023-08-03 19:11:48,688 INFO c.e.d.c.OrderController [main] [OrderController][submit]: Order requests failures for user "test"
+2023-08-03 19:11:48,689 INFO c.e.d.c.OrderController [main] [OrderController][submit]: Order requests successes for user "test"
+2023-08-03 19:11:48,690 ERROR c.e.d.c.OrderController [main] [OrderController][getOrdersForUser]: User "test" cannot be found
+2023-08-03 19:11:48,690 INFO c.e.d.c.OrderController [main] [OrderController][getOrdersForUser]: Order requests successes for user "test"
